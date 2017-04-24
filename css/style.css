@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 22px;
+	line-height: 32px;
+	color: #333;
+	
+}
+
+.wrapper{
+	margin: auto;
+	width:600px;
+	padding: 20px;
+	line-height: 35px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+#box1{
+	background-color: #ccc;
+	width: 200px;
+	height: 120px;
+	text-align: center;
+	
+	position: fixed;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+
+#box2{
+	background-color: #ccc;
+	height: 130px;
+	text-align: center;
+	
+	position: relative;
+}
+
+#box3{
+	background-color: #888;
+	height: 90px;
+	text-align: center;
+	width: 220px;
+	
+	position: absolute;
+	bottom: 0;
+	right: -30px;
+}
